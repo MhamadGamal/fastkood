@@ -1,0 +1,347 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+/*=====================Start Navbar Styling===================================*/
+.navbar{
+    border: 2px solid rgba(9, 58, 78, 0.53);
+    background-color: rgb(27, 52, 62);
+    height: 90px;
+    padding-left: 108px;
+}
+.navbar-collapse ul {
+  margin: 20px 0;
+  color: #fff !IMPORTANT;
+}
+.navbar-collapse ul li a{
+  color: #fff !important;
+}
+.navbar-collapse ul li a:hover{
+  background-color: transparent;
+}
+.nav>li>a:hover, .nav>li>a:focus{
+  background-color: transparent;
+}
+.navbar-collapse ul li a i {margin-right: 5px;}
+.navbar-toggle{
+  background-color: rgb(9, 49, 62);
+  margin-top: 22px;
+  border: 1px solid #fff;
+}
+.navbar-toggle .icon-bar{
+  background-color: #fff;
+}
+/*=====================End Navbar Styling=====================================*/
+/*======================Starat Section Home Styling===========================*/
+.home-slider{
+  background-image: url("../img/back.gif");
+  background-size: cover;
+}
+/*========================End Section Home Styling=============================*/
+/*========================Start Section About Styling==========================*/
+.About {
+  padding-top: 50px;
+}
+.About h1{
+  padding: 25px;
+  font-family: cursive;
+  font-size: 45px;
+}
+.About .features{margin: 50px 20px;}
+.About .features i {
+  border: 2px solid #25CBF5;
+  color: #25CBF5;
+  padding: 12px;
+  border-radius: 0 100px 100px;
+}
+.About .features i:hover{
+    background-color: #25CBF5;
+    color: #fff;
+}
+.About .feature-box{
+    margin-left: 90px;
+    margin-top: -82px;
+}
+/*=========================End Section About styling==============================*/
+/*=========================Start Section Why us =================================*/
+.Why{
+  padding: 50px 0;
+  background-color: #eee;
+  border-top: 1px solid rgba(170, 170, 170, 0.49);
+  border-bottom: 1px solid rgba(170, 170, 170, 0.49);
+}
+.Why img{width: 90%;}
+.Why h1{
+  margin: 0;
+  padding-bottom: 10px;
+  font-family: cursive;
+}
+.Why ul{margin-top: 40px;}
+.Why ul li {
+  margin: 0;
+  list-style: none;
+  margin-top: 20px;
+}
+.Why ul li i{
+  color: #25CBF5;
+  padding-right: 5px;
+}
+/*=========================End Saction Why us========================*/
+/*=========================Start section Describe Styling============*/
+.Describe{padding: 50px; 0}
+.Describe img{width: 90%;}
+.Describe h1{
+  margin: 0;
+  padding-bottom: 10px;
+  font-family: cursive;
+}
+.Describe ul{margin-top: 40px;}
+.Describe ul li {
+  margin: 0;
+  list-style: none;
+  margin-top: 20px;
+}
+.Describe ul li i{
+  color: #25CBF5;
+  padding-right: 5px;
+}
+/*==========================End Section Describe Styling==============*/
+/*Start Services Styling*/
+.services,
+.map{
+  background-image: url('../img/slider4.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+}
+.map .hover,
+.services .hover{
+  background-color: rgba(37, 203, 245, 0.41);
+    width: 100%;
+    height: 100%;
+}
+.services .col-md-4{
+  width: 30.333333333%;
+}
+.services .piece{
+  background-color: #fff;
+  margin: 80px 15px 30px 15px;
+  height: 250px;
+  border-radius: 4px;
+  background-clip: padding-box;
+}
+.services .piece i{
+    position: relative;
+    top: -35px;
+    border: 1px solid #25CBF5;
+    padding: 12px;
+    border-radius: 0 100px 100px;
+    color: #fff;
+    background-color: #25CBF5;
+}
+.services .piece .feature-box-text p{
+  margin-top: 20px;
+  line-height: 1.8;
+}
+/*End Services Styling*/
+/*Start Statistics Styling*/
+.stat{
+  padding: 50px 0 30px 0;
+
+}
+.stat i{color: #25CBF5;}
+.v-counter .count-number {
+    font-size: 50px;
+}
+.v-counter h6.v-counter-text {
+    letter-spacing: 1px;
+}
+.v-counter .count-divider {
+  width: 21%;
+  text-align: center;
+  height: 1px;
+  margin-top: 15px;
+  margin-bottom: 20px;
+  margin-left: 105px;
+  background-color: #87bbaa;
+}
+/*End statistics Styling*/
+/*Start Section Contact Styling*/
+.contact{
+  padding: 40px 0 30px 0;
+  background-color: rgba(0,0,0,.11);
+}
+.contact .form-group{
+  margin: 20px 120px;
+}
+.contact form label{
+  color: rgba(9, 12, 14, 0.64);
+}
+.contact form label span{
+  color: red;
+}
+.contact form input{
+  width: 88%;
+  background-color: rgba(32, 109, 191, 0.07);
+}
+.contact form textarea{
+  width: 96%;
+  background-color: rgba(32, 109, 191, 0.07);
+}
+.contact > form > input:checked,
+.contact > form > input:visited,
+.contact form input:focus,
+.contact form textarea:focus{
+  border-color: transparent;
+  background-color: #fff;
+}
+.contact .btn{
+  background-color: rgba(0, 0, 0, 0.61);
+    color: #fff;
+    font-weight: bold;
+}
+/*End Section contact Styling*/
+/*Start footer styling*/
+footer{
+  background-color: #222222;
+  padding-top: 40px;
+  color: #aaa;
+}
+footer .main {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+footer i{
+  margin-left: 7px;
+  color: #fff;
+  border: 1px solid rgba(153, 153, 153, 0.48);
+  padding: 11px;
+  border-radius: 0 100px 100px;
+  -webkit-transition: top 0.35s;
+  -moz-transition: top 0.35s;
+  -o-transition: top 0.35s;
+  transition: top 0.35s;
+}
+footer .widget h4{
+  color: #fff;
+  margin-left: 57px;
+}
+footer .widget ul li{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+footer .widget ul li p{
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+footer .widget ul li i{border: none;}
+footer .copyright{
+    padding: 15px 0;
+    font-size: 12px;
+    border-top: 0 solid transparent;
+    border-top-width: 1px;
+    background-color: #2C2C2C;
+    border-top-color: #333333;
+}
+footer .copyright p {margin-top: 5px;}
+/*End footer styling*/
+/*start page loading*/
+.pageloading{
+  background-color: #021725;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  z-index: 999999999;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.pageloading img{
+  position: relative;
+  top: 30%;
+  left: 30%
+}
+/*End page loading*/
+/*start scroll*/
+.scroll{
+  border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    background-color: rgba(0,0,0,.4);
+    -moz-box-shadow: inset 0 0 5px rgba(0,0,0,.1);
+    -webkit-box-shadow: inset 0 0 5px rgba(0,0,0,.1);
+    box-shadow: inset 0 0 5px rgba(0,0,0,.1);
+    position: fixed;
+    bottom: 15px;
+    right: 20px;
+    z-index: 1000;
+    padding: 10px 15px 10px;
+    cursor: pointer;
+    -webkit-transform: translate3d(0,0,0);
+    -moz-transform: translate3d(0,0,0);
+    -ms-transform: translate3d(0,0,0);
+    -o-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);
+    color: #fff;
+    display: none;
+}
+.scroll:hover{
+  color: #25CBF5;
+}
+/*===============================================================*/
+
+
+/*==============================Start Media Stylin====================*/
+@media (max-width:439px) {html{width: 127%;}}
+@media (max-width:766px) {
+  .navbar{padding-left: 0;}
+
+  .navbar-collapse ul {background-color: rgba(11, 44, 47, 0.97);}
+
+  .container>.navbar-header, .container-fluid>.navbar-header, .container>.navbar-collapse, .container-fluid>.navbar-collapse {
+    margin-right: -32px;
+    }
+    .services .piece{margin-left: 100px}
+    .services .col-md-4 {width: 57.333333%;}
+    .v-counter .count-divider{margin-left: 180px;}
+    .contact form input,
+     .contact form textarea{
+    width: 120%;
+    margin-left: -15px;
+    margin-bottom: 20px;
+    }
+    footer .widget h4{margin-left: 0; margin-top: 35px;}
+    .footer-contact-info{margin-left: -50px}
+
+  .navbar-toggle{margin-right: 35px;}
+
+  .home-slider .content{margin: 33% 9% !important;}
+  .pageloading img{top: 10%; left: 10%}
+  navbar-collapse ul {
+    background-color: #0f1d21;
+    width: 106%;}
+    .navbar-collapse ul li a{text-align: center;}
+}
+@media (max-width:961px) and (min-width:641px) {
+  html{width: 104%}
+  .navbar{padding-left: 0;}
+  .navbar-brand>img{margin-left: -60px;}
+  .navbar-collapse ul {margin: 15px -86px 0 0;}
+  .home-slider .content{margin: 23% 27% !important;}
+  .About .feature-box {
+    margin-left: 47px;}
+  .About .features i{margin-left: -35px;}
+  .services .col-md-4 {
+    width: 65.333333%;}
+    .services .piece{margin-left: 125px;}
+  .v-counter .count-divider{    width: 38%;     margin-left: 48px;}  
+}
+@media (min-width:768px) { /* big landscape tablets, laptops, and desktops */ }
+@media (min-width:1025px) { /* big landscape tablets, laptops, and desktops */ }
+@media (min-width:1281px) { /* hi-res laptops and desktops */ }
