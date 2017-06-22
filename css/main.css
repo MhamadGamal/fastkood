@@ -3,7 +3,11 @@
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+body{
+   overflow: hidden;
+}
 /*=====================Start Navbar Styling===================================*/
+
 .navbar{
     border: 2px solid rgba(9, 58, 78, 0.53);
     background-color: rgb(27, 52, 62);
@@ -90,7 +94,7 @@
 /*=========================End Saction Why us========================*/
 /*=========================Start section Describe Styling============*/
 .Describe{padding: 50px; 0}
-.Describe img{width: 90%;}
+.Describe .des-image{width: 90%;}
 .Describe h1{
   margin: 0;
   padding-bottom: 10px;
@@ -340,7 +344,7 @@ footer .copyright p {margin-top: 5px;}
   .services .col-md-4 {
     width: 65.333333%;}
     .services .piece{margin-left: 125px;}
-  .v-counter .count-divider{    width: 38%;     margin-left: 48px;}  
+  .v-counter .count-divider{    width: 38%;     margin-left: 48px;}
 }
 @media (min-width:768px) { /* big landscape tablets, laptops, and desktops */ }
 @media (min-width:1025px) { /* big landscape tablets, laptops, and desktops */ }
